@@ -32,7 +32,7 @@ console.log("Hello")
 // })
 
 const server = app.listen(process.env.PORT, () => {
-    console.log(`Server started on PORT: ${process.env.PORT} in ${process.env.NODE_ENV} mode.`)
+    console.log(`Server started on on PORT: ${process.env.PORT} in ${process.env.NODE_ENV} mode.`)
 })
 
 // // Handle Unhandled Promise rejections

@@ -5,7 +5,7 @@ app.get('/', (req, res) => res.send("Hello World !"))
 console.log("Hello")
 // const connectDatabase = require('./config/database')
 
-// // const dotenv = require('dotenv');
+const dotenv = require('dotenv');
 // const cloudinary = require('cloudinary')
 
 // // Handle Uncaught exceptions

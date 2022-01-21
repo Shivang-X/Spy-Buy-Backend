@@ -1,9 +1,8 @@
 // const app = require('./app')
 const express = require('express')
 const app = express();
-app.get('/', (req, res) => res.send("Hello World !"))
-console.log("Hello")
-// const connectDatabase = require('./config/database')
+app.get('/', (req, res) => res.send("Hello World !!!"))
+const connectDatabase = require('./config/database')
 
 const dotenv = require('dotenv');
 const cloudinary = require('cloudinary')

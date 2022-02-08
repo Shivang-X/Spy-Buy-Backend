@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser())
 app.use(fileUpload());
-app.use(cors({ origin : "https://spy-buy-frontend.herokuapp.com" }))
+app.use(cors())
 
 
 // Import all routes

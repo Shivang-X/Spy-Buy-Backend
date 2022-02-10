@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser())
 app.use(fileUpload());
 app.use(cors({ origin: [
-    "https://thirsty-wilson-794303.netlify.app/",
+    "https://thirsty-wilson-794303.netlify.app/"
     
 ], 
               credentials:true,

@@ -18,7 +18,13 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser())
 app.use(fileUpload());
-app.use(cors())
+app.use(cors({ origin: [
+    "https://thirsty-wilson-794303.netlify.app/",
+    
+], 
+              credentials:true,
+              optionSuccessStatus: 200,
+             }));
 
 
 // Import all routes

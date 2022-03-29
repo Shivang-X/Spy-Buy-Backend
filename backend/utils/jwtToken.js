@@ -11,7 +11,7 @@ const sendToken = (user, statusCode, res) => {
         ),
         httpOnly: true
     }
-
+    res.setHeader('Access-Control-Allow-Origin', '*')
     res.status(statusCode).cookie("token", token, options).json({
         success: true,
         token,

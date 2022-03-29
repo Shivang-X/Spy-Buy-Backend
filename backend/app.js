@@ -26,7 +26,7 @@ app.use(fileUpload());
 //               credentials:true,
 //               optionSuccessStatus: 200,
 //              }));
-app.use(cors())
+// app.use(cors())
 
 
 // Import all routes

@@ -159,7 +159,7 @@ exports.resetPassword = catchAsyncErrors(async (req, res, next) => {
 // Get currently logged in user details   =>   /api/v1/me
 exports.getUserProfile = catchAsyncErrors(async (req, res, next) => {
   const user = await User.findById(req.user.id);
-  res.writeHead('Access-Control-Allow-Origin', 'https://spy-buy.herokuapp.com')
+  res.setHeader('Access-Control-Allow-Origin', 'https://spy-buy.herokuapp.com')
   res.status(200).json({
     success: true,
     user,

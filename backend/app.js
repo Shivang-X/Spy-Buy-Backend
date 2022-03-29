@@ -18,15 +18,15 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser())
 app.use(fileUpload());
-// app.use(cors({ origin: [
-//     // "http://localhost:3000",
-//     "https://spy-buy.herokuapp.com/"
+app.use(cors({ origin: [
+    // "http://localhost:3000",
+    "https://spy-buy.herokuapp.com"
     
-// ], 
-//               credentials:true,
-//               optionSuccessStatus: 200,
-//              }));
-app.use(cors())
+], 
+              credentials:true,
+              optionSuccessStatus: 200,
+             }));
+// app.use(cors())
 
 
 // Import all routes

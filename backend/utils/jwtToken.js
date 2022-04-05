@@ -9,7 +9,7 @@ const sendToken = (user, statusCode, res) => {
         expires: new Date(
             Date.now() + process.env.COOKIE_EXPIRES_TIME * 24 * 60 * 60 * 1000
         ),
-        SameSite: None
+//         SameSite: None
         // httpOnly: true
     }
     res.setHeader('Access-Control-Allow-Origin', 'https://spy-buy.herokuapp.com')

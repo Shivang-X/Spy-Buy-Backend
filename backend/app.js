@@ -20,12 +20,12 @@ app.use(cookieParser())
 app.use(fileUpload());
 app.use(cors({ origin: [
     "https://spy-buy.herokuapp.com",
-    "http://localhost:3000"
+    "http://localhost:3000",
     
 ], 
               credentials:true,
               optionSuccessStatus: 200,
-             }));
+}));
 // app.use(cors())
 
 

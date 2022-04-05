@@ -12,7 +12,7 @@ const sendToken = (user, statusCode, res) => {
         SameSite: None
         // httpOnly: true
     }
-    res.setHeader('Access-Control-Allow-Origin', 'https://spy-buy.herokuapp.com')
+    res.setHeader('Access-Control-Allow-Origin', 'https://stalwart-babka-3229ff.netlify.app/')
     res.status(statusCode).cookie("token", token, options).json({
         success: true,
         token,

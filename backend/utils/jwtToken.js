@@ -13,7 +13,7 @@ const sendToken = (user, statusCode, res) => {
         sameSite: 'None',
         secure: true
     }
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
+    res.setHeader('Access-Control-Allow-Origin', 'https://spy-buy.herokuapp.com')
     res.status(statusCode).cookie("token", token, options).json({
         success: true,
         token,

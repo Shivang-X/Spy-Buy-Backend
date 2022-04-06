@@ -10,7 +10,8 @@ const sendToken = (user, statusCode, res) => {
             Date.now() + process.env.COOKIE_EXPIRES_TIME * 24 * 60 * 60 * 1000
         ),
         httpOnly: true,
-        samesite: none
+        sameSite: 'None',
+        secure: true
     }
     res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000')
     res.status(statusCode).cookie("token", token, options).json({

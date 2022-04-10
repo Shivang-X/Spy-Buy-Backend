@@ -1,7 +1,7 @@
 {
-  "name": "shopit-mern",
+  "name": "spy-buy-backend",
   "version": "1.0.0",
-  "description": "E-commerce website using mern",
+  "description": "E-commerce website",
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",

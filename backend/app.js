@@ -21,7 +21,8 @@ app.use(fileUpload());
 app.use(cors({ origin: [
     "https://spy-buy.herokuapp.com",
     "http://localhost:3000",
-    "https://stalwart-babka-3229ff.netlify.app/"
+    "https://stalwart-babka-3229ff.netlify.app/",
+    "https://spy-buy-frontend-hefq1v7ce-shivang27102001-gmailcom.vercel.app/"
     
 ], 
               credentials:true,

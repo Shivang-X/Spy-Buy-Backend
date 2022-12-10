@@ -23,6 +23,7 @@ app.use(fileUpload());
 //     "http://localhost:3000",
 //     "https://stalwart-babka-3229ff.netlify.app/",
 //     "https://spy-buy-frontend-hefq1v7ce-shivang27102001-gmailcom.vercel.app/"
+        "https://spy-buy-frontend.vercel.app/"
     
 // ], 
 //               credentials:true,

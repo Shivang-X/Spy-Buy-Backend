@@ -13,7 +13,7 @@ const sendToken = (user, statusCode, res) => {
         sameSite: 'None',
         secure: true
     }
-    res.setHeader('Access-Control-Allow-Origin', 'https://spy-buy-frontend.vercel.app/')
+    res.setHeader('Access-Control-Allow-Origin', 'https://spy-buy-frontend.vercel.app')
     res.status(statusCode).cookie("token", token, options).json({
         success: true,
         token,

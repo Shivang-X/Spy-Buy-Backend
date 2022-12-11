@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser())
 app.use(fileUpload());
 app.use(cors({ origin: [
-    "https://spy-buy-frontend.vercel.app/"
+    "https://spy-buy-frontend.vercel.app"
 ], 
               credentials:true,
               optionSuccessStatus: 200,

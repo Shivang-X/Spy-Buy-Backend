@@ -2,6 +2,8 @@
 
 This repository contains the backend code for the Spy-Buy e-commerce platform.
 
+Frontend for this project : https://github.com/Shivang-X/Spy-Buy-Frontend
+
 ## Features
 
 - User authentication and authorization using JWT
